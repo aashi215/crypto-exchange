@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #06204F;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.account-btn {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #06204F;
+    color: white;
+}
+
+.exchange-box {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.exchange-box input,
+.exchange-box select {
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.exchange-btn {
+    background: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    text-align: center;
+}
+
+.feature {
+    width: 30%;
+}
+
+.feature button {
+    background: orange;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.benefits {
+    background: #06204F;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.benefit-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 18px;
+}
+
+footer {
+    background: #06204F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    margin-top: 10px;
+}
